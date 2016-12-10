@@ -31,3 +31,6 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+loopback-swift-crud-example-tests/server/node_modules/
+

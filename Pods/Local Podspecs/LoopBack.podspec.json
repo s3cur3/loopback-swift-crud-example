@@ -28,7 +28,8 @@
       "UIKit",
       "Foundation",
       "MobileCoreServices",
-      "SystemConfiguration"
+      "SystemConfiguration",
+      "CoreLocation"
     ]
   }
 }

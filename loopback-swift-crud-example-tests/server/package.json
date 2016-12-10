@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "loopback-component-push": "^1.7.0",
+    "loopback-component-storage": "^1.10.0",
+    "strongloop": "^6.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

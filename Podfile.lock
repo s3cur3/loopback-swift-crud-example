@@ -10,10 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LoopBack:
-    :commit: 8ccefd5f853741de6fcab506e4328fabc92e8998
+    :commit: 3608fc9946c4b16d850dfe269700db28bff32087
     :git: https://github.com/strongloop/loopback-sdk-ios.git
 
 SPEC CHECKSUMS:
-  LoopBack: 1360351ea64a78c3d057dcb6b541b8e7a7e81ab0
+  LoopBack: 0ae752b0c1d3f572e1d949945a7651f61c433f9e
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 3046d5a5f32580c2ea5387654873a90e73747fe0
+
+COCOAPODS: 1.1.1

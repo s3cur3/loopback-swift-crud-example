@@ -34,29 +34,40 @@ static NSString * const DEFAULTS_ACCESSTOKEN_KEY = @"LBRESTAdapterAccessToken";
     [self saveAccessToken:accessToken];
 }
 
-- (LBModelRepository *)repositoryWithModelName:(NSString *)name persisted:(BOOL)persisted {
+- (LBModelRepository *)repositoryWithModelName:(NSString *)name {
     NSParameterAssert(name);
 
-    LBModelRepository *repository = nil;
-    if (persisted) {
-        repository = [LBPersistedModelRepository repositoryWithClassName:name];
-    } else {
-        repository = [LBModelRepository repositoryWithClassName:name];
-    }
+    LBModelRepository *repository = [LBModelRepository repositoryWithClassName:name];
     [self attachRepository:repository];
     return repository;
+}
+
+- (LBPersistedModelRepository *)repositoryWithPersistedModelName:(NSString *)name {
+    NSParameterAssert(name);
+
+    LBPersistedModelRepository *repository = [LBPersistedModelRepository repositoryWithClassName:name];
+    [self attachRepository:repository];
+    return repository;
+}
+
+// The following method has been deprecated
+- (LBModelRepository *)repositoryWithModelName:(NSString *)name persisted:(BOOL)persisted {
+    if (persisted) {
+        return [self repositoryWithPersistedModelName:name];
+    } else {
+        return [self repositoryWithModelName:name];
+    }
 }
 
 - (LBModelRepository *)repositoryWithClass:(Class)type {
     if (type == nil) {
         @throw [NSException exceptionWithName:NSInvalidArgumentException
-                                       reason:[NSString stringWithFormat:@"Argument cannot be nil"]
+                                       reason:@"Argument cannot be nil"
                                      userInfo:nil];
     }
     if (![type isSubclassOfClass:[LBModelRepository class]]) {
         @throw [NSException exceptionWithName:NSInvalidArgumentException
-                                       reason:[NSString stringWithFormat:
-                                               @"Argument needs to be a subclass of LBModelRepository"]
+                                       reason:@"Argument needs to be a subclass of LBModelRepository"
                                      userInfo:nil];
     }
     if (![type respondsToSelector:@selector(repository)]) {

@@ -7,371 +7,382 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08E9BEF139FFCD1C8ADCCDD0DC6EDE92 /* LBAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321E6682DAC05580E495AB7329FDA35 /* LBAccessToken.m */; };
-		0BEEB822536C2ED03D3EE3130E753DF4 /* SLRESTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E63A272EA6A13233E2F86BE5C71D011 /* SLRESTAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DACF5255765BA5227C84F0C0164612D /* LBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD80CC664268EE05EF413E2666F4EC3 /* LBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D04EAE083B716EBF6E15604971A8AAB /* LBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC98393F2F3BA69564B8CE982BB1AD1A /* LBModel.m */; };
-		28F68DB82DBD3CA6AB3E4C9D541469A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43D65B21A9CE4F602CA231AED8A17A0 /* SystemConfiguration.framework */; };
-		29C41304E1D572369CB5DBBE08D22C11 /* SLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6699E859838CC15F6C387AF490851A51 /* SLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BAB57CD1651A942ADDDEB8EAD559CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE38CE89C0DC34B8F4ED076D64921E3D /* UIKit.framework */; };
-		2DF1D5DACAA7EC31214533B68705E961 /* SLAFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5182BD44A623799EF2C11CA4BD99C6F4 /* SLAFPropertyListRequestOperation.m */; };
-		2F4C38475DCCCA2512EA415914A1395A /* SLAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B054FDD220B0EB27588B051419F26 /* SLAFHTTPClient.m */; };
-		382403B4309EB04BE9C2160E07B929D5 /* UIImageView+SLAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2447B4C5EF3035ABA2F4E7062F3A7CD8 /* UIImageView+SLAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F94CF6DAE6C20E46FA95A11749C3AA2 /* LBRESTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87601186F65C6E36FFC6CD7E677FB52C /* LBRESTAdapter.m */; };
-		3FF90C64C37A0F2902A1746EB553AE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C2E7E21B898FA58280EFE75438A085 /* Foundation.framework */; };
-		411EB93DE55D7591DE6AEDE5AE61D487 /* SLRESTContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A330C4527949138483142E65D0939E /* SLRESTContract.m */; };
-		4381F2FA1ABA8285BAD22F9E8DA64D8A /* SLStreamParam.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD89C195FFB3D9354A7990E2CB7D028 /* SLStreamParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43B9B12940A93B9EB8693C0EB9C16381 /* SLRESTContract.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B9FDAD0E6A5D2ECD168F1F2A66B2F3 /* SLRESTContract.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44EE43096AA1A5538F39549729D798F1 /* SLStreamParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AA15E3E445E2CFDCA927ADC514BC5 /* SLStreamParam.m */; };
-		50D2E152CFCB4DB02A70B13F065D8FB4 /* LBAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DA72C60E89BE2125993ED60192196F08 /* LBAccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E005A7A48DADB8D92F4AE3CF617724 /* SLAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B6606E181434856C19EAD18708340E /* SLAFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5339652DB6456A33C39B62897CB984AE /* LBContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A79F516DFB53F7D203D5C63D7E145A /* LBContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5800E275D76926F1E6CEA746D95656D0 /* SLAFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6958E0D83C4CD3F3C78446198AB1B9A /* SLAFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DB92F191FD4E3AEDA3E63325E0292AF /* SLAFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B90D5CA146B51A13B2986CE2AC21248 /* SLAFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		619E640C3CD6A3B13073D7C2B239BCCD /* LBPersistedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6511BC4CD5EA22F12F24825E67EF472F /* LBPersistedModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6375B72A77BAC0AE09EC2BC3D83F162C /* SLAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FC4C407D2A84B0C93F40726FD03C6B /* SLAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B58EEF6DAB49093BDCDC1C96503FB74 /* LBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 024A6EEC83416CD7AB371BEA459B7856 /* LBInstallation.m */; };
-		73F93A6D38F77C9A437110E626B257A9 /* LBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F12DF94300C84F64A60B90D898860D /* LBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		747B19E41FF064A334C86DACF554B55F /* SLAFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EC95A46575A7E2633BBEA4D5FA5916 /* SLAFJSONRequestOperation.m */; };
-		7662A6CB71D95C2BAAE191C4D3AD80EE /* SLRemoting.h in Headers */ = {isa = PBXBuildFile; fileRef = C20CAC0D7121DEE68A53345556757F00 /* SLRemoting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C75EFB9B80CD5C1E6CA7861C808ED28 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A29CFA96483899F6B845D753780D1 /* MobileCoreServices.framework */; };
-		7EC0CF2CED9D7EDFD1B36B28817B613E /* UIImageView+SLAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9C34925493ECB422EEAFC23F2D1B4 /* UIImageView+SLAFNetworking.m */; };
-		7F5222A1258F18B1B526AA8ECD737331 /* SLAFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 217AB4964C77E95769741C92F80A3AC4 /* SLAFXMLRequestOperation.m */; };
-		81863FF74C3AD6C0A4DDE14598251295 /* LBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D0CC3A3634F461905147405656CBC6 /* LBUser.m */; };
-		84356CDEAF7F211049FD79C2D1E23C6F /* SLAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 722D6ACFC43CD06A5A78AA0CE24091AD /* SLAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87A9C05B62AE88E21EDA00E3E569CE33 /* SLAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6719CF6BA933B48B794F42993408E42A /* SLAFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FB72883BFC46FF30F0EFA3155AC02BA /* SLAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F74F6833FF5B75FEDBC378CA04D7287 /* SLAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		934ED45B795365A69DD873B9D0E971C6 /* LBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2223C4384C95029221AB1311E2AA997D /* LBModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9AA99447B36FACF786DA2F0DE288ADC /* SLRemotingTestsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EEF506497BD65694C3901D662B1B36 /* SLRemotingTestsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF58ABDF82F9CEC2C76E19AF0B250D8 /* LoopBack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF61196C346423AA00F8E671980310CE /* LoopBack-dummy.m */; };
-		ADB84BE5E239D3CBB1E4DD4F59972203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C2E7E21B898FA58280EFE75438A085 /* Foundation.framework */; };
-		B2AD46F96192B60D4FDB6E532F85A172 /* LBPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7140C27C8BDA61748908F1DBA32295C9 /* LBPushNotification.m */; };
-		BCED9E6E5F5B75FD0C065CD4507B9521 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		BDBB1453EA43DF03AFF97A3774ECB3FD /* SLAFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F955F5197E901E26495630C08E4A47B /* SLAFImageRequestOperation.m */; };
-		C808C573CA5FFCAA3970BD12F67844B8 /* LBContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFBFB010E5D3865BE8048A4066E17CF /* LBContainer.m */; };
-		C8113652E6DC97552DCA05125CC1E81C /* LBRESTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD9364410DC8FAD1C62A7A9C55CABD5 /* LBRESTAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C98878F788125A80A61E95133B207CFE /* SLAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD8B336C91841B385432E5B6EF25E73 /* SLAFURLConnectionOperation.m */; };
-		C9BBC5AD0C9D39A25CEC3A936C804A38 /* LBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A3715EF5151EB7AC2DB3F9E3D9FAD4 /* LBFile.m */; };
-		CB647ADBBB609572D5F438C1F704D328 /* SLAFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9D5CCA24841322A1013E8A4AA1C1EB /* SLAFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF902B76DC59AA396644C5F59812598 /* SLRESTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF215A742E053CB03D852937D13F8DD /* SLRESTAdapter.m */; };
-		CC29AA36E81D1F1542DB0044F827A8A9 /* LoopBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EF674CB29D772AEA6FEB1C28C5E215 /* LoopBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCCF5C3614F1F8E9463DAE918809E39D /* SLAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFF4AA2B5BF6FCBCE89737E6F33888 /* SLAdapter.m */; };
-		CE67F9DB6237837DC8FD093D9DA9D9F4 /* SLAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2790635046D4B4844991155F36F4D33F /* SLAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D59E6DB67F0B7BF432247542DA846D60 /* LBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BFE02F90C98142A118D5C8C22DD8A9 /* LBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC27979299539A62B7B03FD85A405E79 /* SLAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 870B3872D00A831967AC8BEE7AEAAAB4 /* SLAFHTTPRequestOperation.m */; };
-		DF4CA828726E432A856444AB3E4EE106 /* SLAFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C796CC9846F69F0FCED01BAB0369503A /* SLAFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E392E30F21EBC482F83C847C29B56E66 /* SLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB74524A8B4C65D0AA688EAD239FB23 /* SLObject.m */; };
-		E96CD601187D7BE5696A2902E3E7C182 /* SLAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D882DFACF8D329C2A5BB313D8D7F3D /* SLAFNetworkActivityIndicatorManager.m */; };
-		EA841E442B665CA05D1867F1DA15D863 /* LBPushNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 961C901E74871705E3D80777A26A706E /* LBPushNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFF869CCEDA30CCE812D095AA8F2A22A /* LBPersistedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DDD6AAE14124440E99BA71B1ABC044 /* LBPersistedModel.m */; };
+		02AEC53604768E3B98FE750A15780D2F /* LBRESTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 270136B8965D3080090F6BF211B7FD3F /* LBRESTAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0757CE41D1500131888E6C166EB9B6ED /* LBPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEE2EECBDC1875CD6FF9CD25724BAA /* LBPushNotification.m */; };
+		0C30C6E430AE0A5E091CAD83AAD782E8 /* SLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D17DE44B27C12DE8F6C47736F8064A /* SLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F7992AC22A3C2D47C25B2D9A28BADA8 /* SLAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B25865DCF737AE67CDA77CBE74DE8 /* SLAdapter.m */; };
+		12ABF8BB8A301732843DE11AB7300C38 /* LoopBack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A6D6B3EBB1DA9C96FC5DF84A141817 /* LoopBack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12FED39ED5D945E3875AAC64D0827A1D /* SLAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B032E06C9F543128145F2A6EF1D179 /* SLAFURLConnectionOperation.m */; };
+		2799802213FFAD28EDDB575C0A530C7E /* LBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 176ABCBF7094ECF7884E9A0CE0893DD5 /* LBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34571C7EBE72E5B7F063D5CD16E15F8B /* LBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA355CDEC57D6D62F77EA5AE58B99BDE /* LBUser.m */; };
+		346B2A6803BA2988F2F2FA81A369E95A /* SLRemoting.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE5605B839B576790B89200AAA48BF0 /* SLRemoting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355C98009A66C0E2AD7478EB4125F4BC /* SLAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EF4ACB84284B47A11FF4F34ABB746E /* SLAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39401D2FBCE369213D9AD461D4581351 /* SLRESTContract.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BA85829B34C587D7987A60F3AA0676 /* SLRESTContract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD231CFE7F32C7E925E2938E80F2BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB089AF360C2E17868A3D814AE5CC56B /* Foundation.framework */; };
+		3AE642AF9493F7029A9CF42D486B6C4C /* LBPushNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 490BBF1A55644E38C41EF44A477F3945 /* LBPushNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41451949271DC13696A69E701E190242 /* SLRESTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AACA92544AB38FB3E7D7C20DB893E1 /* SLRESTAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F2E7C187A745074DA0E55A685FF4D0 /* SLAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC14DE998E0E2E29CDE5D4C501858E /* SLAFHTTPRequestOperation.m */; };
+		4446E6FF73AFA2EEC2EAFB5DE93F7E5E /* SLAFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E647E9ABCCFA7820E8CF28ECE6D6200 /* SLAFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E3BB8528D4EB0EDF030BBA525FCA9C /* LBPersistedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1ACEB1C607E2F353133D7AEBABE03 /* LBPersistedModel.m */; };
+		504BFF84CF26A24FBBC518F63509552B /* SLAFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 493A1322B14F7317EC1D1B6476D3E210 /* SLAFImageRequestOperation.m */; };
+		5192400C93871F6FA81A12FBD7FA0C62 /* SLAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B86177C617F6B0DBC52DB68EC7B94E42 /* SLAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E08844C16D424796AB8F461921B67F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A073D4307E564EEE8BF42D57490CCCF5 /* SystemConfiguration.framework */; };
+		61782BC73008E548148C75694EE33BB9 /* SLAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C54A53E58D16A1BB6A36B1E87A32E1B6 /* SLAFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64954078CE708B0445707AAFD33E69DC /* LBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 123937E9479384597628D8A57B7FA8C5 /* LBInstallation.m */; };
+		763BC844950507E9BE46C30D12D4CCCA /* Pods-loopback-swift-crud-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9336F653A14E3812D046EFE45A192B /* Pods-loopback-swift-crud-example-dummy.m */; };
+		7999A9B22B1ABE157EBF881295F1A9E2 /* LBContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735B07AF3722B4AC776C903F401BF32 /* LBContainer.m */; };
+		81BD53DF0DA14F2DCD4AEBAB38EE76ED /* LoopBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 248148E0367E93977A9C1DCB82071EAF /* LoopBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829F2A788AF98A34582DBE9EF535E33D /* SLRESTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E56ACCD82DA560AE33FD26FCC035ED8 /* SLRESTAdapter.m */; };
+		831DC53D6F81830F092FC8206BD7326A /* SLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AA67089D46CD8CAE4F03C1B40E2ED /* SLObject.m */; };
+		84E68A4852BDFD37ABB10B400E4B0F79 /* SLAFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9B568133E0AA4306C28149EED437FE /* SLAFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C22CFD290121A0E8DA2CD527036AFC3 /* SLRemotingTestsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D3EA3A20AFFDFA1434CA5D85A396F0 /* SLRemotingTestsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF4A515B3F2A12C6F9B351E3A002461 /* SLAFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5841AC19FDC86CA980DFEC06234BCA4E /* SLAFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB0E615BDEF624A1DDD1B53965EBDEE /* LoopBack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B348CA4CD9F1058EC89180D82041DD /* LoopBack-dummy.m */; };
+		9024781CBA5D5F0AC924DB3D3D3C5221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB089AF360C2E17868A3D814AE5CC56B /* Foundation.framework */; };
+		9119701EC51441005C7D576113E7F087 /* LBAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C12B08124905B6057AD77BAAF52B3 /* LBAccessToken.m */; };
+		91A3A0B80E6FD1CB452FBAD997B0F4D4 /* UIImageView+SLAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B8FE6684EDCA6E268405C0C952D9 /* UIImageView+SLAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EDD9A11691F9EF907E484EFD21246C /* UIImageView+SLAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 727F78C85177BE8E164AFD35C9CA715B /* UIImageView+SLAFNetworking.m */; };
+		92F59CC9E95796D62A2C804645E9B6A7 /* SLAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A328019B007809D1CBD3A4B89862DF9 /* SLAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95502DB8D31BF3BE81D5AF356F9652E8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DDA37F68AA67CD88E45B0907B7F49 /* MobileCoreServices.framework */; };
+		9909C16B153B5E00F1D3D0890A988548 /* LBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 950488DF44D0C7747BC1F7DB2BC3132A /* LBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2B863E4A18390D904AD4EB0065F8D5 /* LBAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B49EBDE59596C5E7091EA7BC98B3759A /* LBAccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE39FED438CE595E1BBB4C252F8A712 /* SLAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7AFA08F22618C253A9AB3406605060 /* SLAFHTTPClient.m */; };
+		A36EB0E92E5C947B86875F23B3525816 /* SLStreamParam.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7EBBB11735876DC55A7C170147A987 /* SLStreamParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C7C3A07C1D54918A434B5D0F1E885D /* SLStreamParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC3A28E1566637D52613FA1990D64BF /* SLStreamParam.m */; };
+		A5BD7C8E918080BDAF016EE6036D5B23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D856C3F08E7071C2029F7142F398B0 /* CoreLocation.framework */; };
+		A64AE9A4E4945BBFDA3F51608B19DD78 /* LBRESTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D301BE277CC591123E36153782D9E2C /* LBRESTAdapter.m */; };
+		A6F23B8B082931A30C4B25E23D12F844 /* SLAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5613CA0151FE5D4E3A7F976B96615AE /* SLAFNetworkActivityIndicatorManager.m */; };
+		A819BDF40EB10D2FB466155A4FD4BDAD /* SLAFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A313F602C86479DA15CFEDDBF61663B4 /* SLAFXMLRequestOperation.m */; };
+		C04AFDF3A4332B56D297E9E584A703A6 /* SLAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C096A01F5F36210D7228AF6592FB2428 /* SLAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AEAB4A2E79F830FD718F22ABE0CE17 /* LBContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C5779FB784C2E3A60D743FD2C016351B /* LBContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C409566A08C806EF07EDC18095946DB1 /* LBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46130CE65F03585A79005F9B8463725E /* LBModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40DE3992523AA1AA1D6CACCF562E723 /* SLRESTContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D6F692C67B1EFB12D085CCBEC59AE /* SLRESTContract.m */; };
+		CE7668630A16DBBE5F6EF8D50B9A4DF0 /* LBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 23332DE1DDDF145A14B565497DC7307D /* LBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBA7F5EAFB12D2B35EFA5D55F735DAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7995D671467D9F41628AE21D9E1C8 /* UIKit.framework */; };
+		E359E730D8ABCC7FA1CEC00FADDEE9E1 /* LBPersistedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 008FD30797E43A0930475CDE7C6F8FE8 /* LBPersistedModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57FD119E67DECCDF7EF885A097AC0BA /* SLAFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE24A7ADF4D0E072CE7A791FAEDBB9B4 /* SLAFPropertyListRequestOperation.m */; };
+		E591695D78DBD4858F608D6E751B2369 /* LBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CD96656A2E639240C3BBB6907E805 /* LBFile.m */; };
+		E8E37400E18C592F55F51808C4C6DA59 /* LBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F283056C9583546FB55284F965CDBB /* LBModel.m */; };
+		EE980F5C05BC33D4FD9D400A8A8C5748 /* SLAFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B4CE9454B118DB1BA4523173D9D6F /* SLAFJSONRequestOperation.m */; };
+		F1D4308A2B677400A12AFA063246A4A0 /* Pods-loopback-swift-crud-example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AED26E2EF98405B5BE7DCAD12A7C27C4 /* Pods-loopback-swift-crud-example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BEDDB33D123CBA991BAF86B649D1F9 /* SLAFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71548D6155EE310C6C48665C8C11BFAC /* SLAFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6CAEE0A267B700DD03A230CF1A12D86 /* SLAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC4D2EF6304411FAAED188A4854283E /* SLAFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		341E3843D08A4ED270E16C267BA466D1 /* PBXContainerItemProxy */ = {
+		98B2A80D2E6E42F597D37BDCC67ED742 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED63A512E1BA48AE08645153F3F18462;
+			remoteGlobalIDString = A16FE1B576802D2EB5995B602095E8D9;
 			remoteInfo = LoopBack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B9FDAD0E6A5D2ECD168F1F2A66B2F3 /* SLRESTContract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRESTContract.h; path = SLRemoting/SLRESTContract.h; sourceTree = "<group>"; };
-		00FC4C407D2A84B0C93F40726FD03C6B /* SLAFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFHTTPRequestOperation.h; path = SLAFNetworking/SLAFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		024A6EEC83416CD7AB371BEA459B7856 /* LBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBInstallation.m; path = LoopBack/LBInstallation.m; sourceTree = "<group>"; };
-		08269C6820AAAB95042542F9F4F5EB29 /* LoopBack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoopBack-prefix.pch"; sourceTree = "<group>"; };
-		08D882DFACF8D329C2A5BB313D8D7F3D /* SLAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFNetworkActivityIndicatorManager.m; path = SLAFNetworking/SLAFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		0CD9364410DC8FAD1C62A7A9C55CABD5 /* LBRESTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBRESTAdapter.h; path = LoopBack/LBRESTAdapter.h; sourceTree = "<group>"; };
-		0CDFF4AA2B5BF6FCBCE89737E6F33888 /* SLAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAdapter.m; path = SLRemoting/SLAdapter.m; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		1321E6682DAC05580E495AB7329FDA35 /* LBAccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBAccessToken.m; path = LoopBack/LBAccessToken.m; sourceTree = "<group>"; };
-		16EEF506497BD65694C3901D662B1B36 /* SLRemotingTestsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRemotingTestsUtils.h; path = SLRemoting/SLRemotingTestsUtils.h; sourceTree = "<group>"; };
-		190A29CFA96483899F6B845D753780D1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		217AB4964C77E95769741C92F80A3AC4 /* SLAFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFXMLRequestOperation.m; path = SLAFNetworking/SLAFXMLRequestOperation.m; sourceTree = "<group>"; };
-		2223C4384C95029221AB1311E2AA997D /* LBModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBModel.h; path = LoopBack/LBModel.h; sourceTree = "<group>"; };
-		2447B4C5EF3035ABA2F4E7062F3A7CD8 /* UIImageView+SLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SLAFNetworking.h"; path = "SLAFNetworking/UIImageView+SLAFNetworking.h"; sourceTree = "<group>"; };
-		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2790635046D4B4844991155F36F4D33F /* SLAFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFURLConnectionOperation.h; path = SLAFNetworking/SLAFURLConnectionOperation.h; sourceTree = "<group>"; };
-		2BBF3938AE4A578B225EA6FE2E712473 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EB74524A8B4C65D0AA688EAD239FB23 /* SLObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLObject.m; path = SLRemoting/SLObject.m; sourceTree = "<group>"; };
-		34C2E7E21B898FA58280EFE75438A085 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36A330C4527949138483142E65D0939E /* SLRESTContract.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLRESTContract.m; path = SLRemoting/SLRESTContract.m; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		38EF674CB29D772AEA6FEB1C28C5E215 /* LoopBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoopBack.h; path = LoopBack/LoopBack.h; sourceTree = "<group>"; };
-		3FD9C34925493ECB422EEAFC23F2D1B4 /* UIImageView+SLAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SLAFNetworking.m"; path = "SLAFNetworking/UIImageView+SLAFNetworking.m"; sourceTree = "<group>"; };
-		4716B4057A4BC5787B7FA68C756AE7DE /* LoopBack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoopBack.xcconfig; sourceTree = "<group>"; };
-		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5182BD44A623799EF2C11CA4BD99C6F4 /* SLAFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFPropertyListRequestOperation.m; path = SLAFNetworking/SLAFPropertyListRequestOperation.m; sourceTree = "<group>"; };
-		6511BC4CD5EA22F12F24825E67EF472F /* LBPersistedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPersistedModel.h; path = LoopBack/LBPersistedModel.h; sourceTree = "<group>"; };
-		6699E859838CC15F6C387AF490851A51 /* SLObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLObject.h; path = SLRemoting/SLObject.h; sourceTree = "<group>"; };
-		6719CF6BA933B48B794F42993408E42A /* SLAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFNetworkActivityIndicatorManager.h; path = SLAFNetworking/SLAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6F74F6833FF5B75FEDBC378CA04D7287 /* SLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFNetworking.h; path = SLAFNetworking/SLAFNetworking.h; sourceTree = "<group>"; };
-		7140C27C8BDA61748908F1DBA32295C9 /* LBPushNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBPushNotification.m; path = LoopBack/LBPushNotification.m; sourceTree = "<group>"; };
-		722D6ACFC43CD06A5A78AA0CE24091AD /* SLAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAdapter.h; path = SLRemoting/SLAdapter.h; sourceTree = "<group>"; };
-		785B054FDD220B0EB27588B051419F26 /* SLAFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFHTTPClient.m; path = SLAFNetworking/SLAFHTTPClient.m; sourceTree = "<group>"; };
-		7CD80CC664268EE05EF413E2666F4EC3 /* LBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBFile.h; path = LoopBack/LBFile.h; sourceTree = "<group>"; };
-		7F5AA15E3E445E2CFDCA927ADC514BC5 /* SLStreamParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLStreamParam.m; path = SLRemoting/SLStreamParam.m; sourceTree = "<group>"; };
-		870B3872D00A831967AC8BEE7AEAAAB4 /* SLAFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFHTTPRequestOperation.m; path = SLAFNetworking/SLAFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		87601186F65C6E36FFC6CD7E677FB52C /* LBRESTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBRESTAdapter.m; path = LoopBack/LBRESTAdapter.m; sourceTree = "<group>"; };
-		8B90D5CA146B51A13B2986CE2AC21248 /* SLAFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFImageRequestOperation.h; path = SLAFNetworking/SLAFImageRequestOperation.h; sourceTree = "<group>"; };
-		8F955F5197E901E26495630C08E4A47B /* SLAFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFImageRequestOperation.m; path = SLAFNetworking/SLAFImageRequestOperation.m; sourceTree = "<group>"; };
-		961C901E74871705E3D80777A26A706E /* LBPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPushNotification.h; path = LoopBack/LBPushNotification.h; sourceTree = "<group>"; };
-		97A3715EF5151EB7AC2DB3F9E3D9FAD4 /* LBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBFile.m; path = LoopBack/LBFile.m; sourceTree = "<group>"; };
-		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9E63A272EA6A13233E2F86BE5C71D011 /* SLRESTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRESTAdapter.h; path = SLRemoting/SLRESTAdapter.h; sourceTree = "<group>"; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		ABD8B336C91841B385432E5B6EF25E73 /* SLAFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFURLConnectionOperation.m; path = SLAFNetworking/SLAFURLConnectionOperation.m; sourceTree = "<group>"; };
-		AEFBFB010E5D3865BE8048A4066E17CF /* LBContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBContainer.m; path = LoopBack/LBContainer.m; sourceTree = "<group>"; };
-		AF61196C346423AA00F8E671980310CE /* LoopBack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoopBack-dummy.m"; sourceTree = "<group>"; };
-		B0A79F516DFB53F7D203D5C63D7E145A /* LBContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBContainer.h; path = LoopBack/LBContainer.h; sourceTree = "<group>"; };
-		B43D65B21A9CE4F602CA231AED8A17A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B9BFE02F90C98142A118D5C8C22DD8A9 /* LBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBUser.h; path = LoopBack/LBUser.h; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAD89C195FFB3D9354A7990E2CB7D028 /* SLStreamParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLStreamParam.h; path = SLRemoting/SLStreamParam.h; sourceTree = "<group>"; };
-		BDF215A742E053CB03D852937D13F8DD /* SLRESTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLRESTAdapter.m; path = SLRemoting/SLRESTAdapter.m; sourceTree = "<group>"; };
-		BF9D5CCA24841322A1013E8A4AA1C1EB /* SLAFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFJSONRequestOperation.h; path = SLAFNetworking/SLAFJSONRequestOperation.h; sourceTree = "<group>"; };
-		C20CAC0D7121DEE68A53345556757F00 /* SLRemoting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRemoting.h; path = SLRemoting/SLRemoting.h; sourceTree = "<group>"; };
-		C796CC9846F69F0FCED01BAB0369503A /* SLAFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFPropertyListRequestOperation.h; path = SLAFNetworking/SLAFPropertyListRequestOperation.h; sourceTree = "<group>"; };
-		CC98393F2F3BA69564B8CE982BB1AD1A /* LBModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBModel.m; path = LoopBack/LBModel.m; sourceTree = "<group>"; };
-		CE38CE89C0DC34B8F4ED076D64921E3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D6DDD6AAE14124440E99BA71B1ABC044 /* LBPersistedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBPersistedModel.m; path = LoopBack/LBPersistedModel.m; sourceTree = "<group>"; };
-		DA72C60E89BE2125993ED60192196F08 /* LBAccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBAccessToken.h; path = LoopBack/LBAccessToken.h; sourceTree = "<group>"; };
-		E3EC95A46575A7E2633BBEA4D5FA5916 /* SLAFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFJSONRequestOperation.m; path = SLAFNetworking/SLAFJSONRequestOperation.m; sourceTree = "<group>"; };
-		E6958E0D83C4CD3F3C78446198AB1B9A /* SLAFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFXMLRequestOperation.h; path = SLAFNetworking/SLAFXMLRequestOperation.h; sourceTree = "<group>"; };
-		E6B6606E181434856C19EAD18708340E /* SLAFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFHTTPClient.h; path = SLAFNetworking/SLAFHTTPClient.h; sourceTree = "<group>"; };
-		E7CC03A7335B5E0C55A8602C336C95F7 /* libLoopBack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLoopBack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0F12DF94300C84F64A60B90D898860D /* LBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBInstallation.h; path = LoopBack/LBInstallation.h; sourceTree = "<group>"; };
-		F7D0CC3A3634F461905147405656CBC6 /* LBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBUser.m; path = LoopBack/LBUser.m; sourceTree = "<group>"; };
+		008FD30797E43A0930475CDE7C6F8FE8 /* LBPersistedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPersistedModel.h; path = LoopBack/LBPersistedModel.h; sourceTree = "<group>"; };
+		02EF4ACB84284B47A11FF4F34ABB746E /* SLAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAdapter.h; path = SLRemoting/SLAdapter.h; sourceTree = "<group>"; };
+		120DDA37F68AA67CD88E45B0907B7F49 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		123937E9479384597628D8A57B7FA8C5 /* LBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBInstallation.m; path = LoopBack/LBInstallation.m; sourceTree = "<group>"; };
+		13F283056C9583546FB55284F965CDBB /* LBModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBModel.m; path = LoopBack/LBModel.m; sourceTree = "<group>"; };
+		176ABCBF7094ECF7884E9A0CE0893DD5 /* LBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBUser.h; path = LoopBack/LBUser.h; sourceTree = "<group>"; };
+		176FE430BA534662887939A14B48FD9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6D6F692C67B1EFB12D085CCBEC59AE /* SLRESTContract.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLRESTContract.m; path = SLRemoting/SLRESTContract.m; sourceTree = "<group>"; };
+		21DF5AB80D084E992F9754D5EE3E4D5D /* Pods_loopback_swift_crud_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_loopback_swift_crud_example.framework; path = "Pods-loopback-swift-crud-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23332DE1DDDF145A14B565497DC7307D /* LBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBInstallation.h; path = LoopBack/LBInstallation.h; sourceTree = "<group>"; };
+		248148E0367E93977A9C1DCB82071EAF /* LoopBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoopBack.h; path = LoopBack/LoopBack.h; sourceTree = "<group>"; };
+		24A6D6B3EBB1DA9C96FC5DF84A141817 /* LoopBack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoopBack-umbrella.h"; sourceTree = "<group>"; };
+		24E7995D671467D9F41628AE21D9E1C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		270136B8965D3080090F6BF211B7FD3F /* LBRESTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBRESTAdapter.h; path = LoopBack/LBRESTAdapter.h; sourceTree = "<group>"; };
+		2B9CD96656A2E639240C3BBB6907E805 /* LBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBFile.m; path = LoopBack/LBFile.m; sourceTree = "<group>"; };
+		2E647E9ABCCFA7820E8CF28ECE6D6200 /* SLAFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFJSONRequestOperation.h; path = SLAFNetworking/SLAFJSONRequestOperation.h; sourceTree = "<group>"; };
+		31BA85829B34C587D7987A60F3AA0676 /* SLRESTContract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRESTContract.h; path = SLRemoting/SLRESTContract.h; sourceTree = "<group>"; };
+		3267B8FE6684EDCA6E268405C0C952D9 /* UIImageView+SLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SLAFNetworking.h"; path = "SLAFNetworking/UIImageView+SLAFNetworking.h"; sourceTree = "<group>"; };
+		3E7B25865DCF737AE67CDA77CBE74DE8 /* SLAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAdapter.m; path = SLRemoting/SLAdapter.m; sourceTree = "<group>"; };
+		46130CE65F03585A79005F9B8463725E /* LBModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBModel.h; path = LoopBack/LBModel.h; sourceTree = "<group>"; };
+		490BBF1A55644E38C41EF44A477F3945 /* LBPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPushNotification.h; path = LoopBack/LBPushNotification.h; sourceTree = "<group>"; };
+		493A1322B14F7317EC1D1B6476D3E210 /* SLAFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFImageRequestOperation.m; path = SLAFNetworking/SLAFImageRequestOperation.m; sourceTree = "<group>"; };
+		4A5E65BF34F2011704F7E9A4CBF8C73E /* Pods-loopback-swift-crud-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loopback-swift-crud-example.debug.xcconfig"; sourceTree = "<group>"; };
+		5610C95A2AE80817013372FCEF059AE1 /* LoopBack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoopBack-prefix.pch"; sourceTree = "<group>"; };
+		5735B07AF3722B4AC776C903F401BF32 /* LBContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBContainer.m; path = LoopBack/LBContainer.m; sourceTree = "<group>"; };
+		577D8F8BD93D768614B7AD030EDF8CA3 /* LoopBack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoopBack.xcconfig; sourceTree = "<group>"; };
+		5841AC19FDC86CA980DFEC06234BCA4E /* SLAFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFPropertyListRequestOperation.h; path = SLAFNetworking/SLAFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		5D301BE277CC591123E36153782D9E2C /* LBRESTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBRESTAdapter.m; path = LoopBack/LBRESTAdapter.m; sourceTree = "<group>"; };
+		5D9336F653A14E3812D046EFE45A192B /* Pods-loopback-swift-crud-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-loopback-swift-crud-example-dummy.m"; sourceTree = "<group>"; };
+		6E56ACCD82DA560AE33FD26FCC035ED8 /* SLRESTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLRESTAdapter.m; path = SLRemoting/SLRESTAdapter.m; sourceTree = "<group>"; };
+		71548D6155EE310C6C48665C8C11BFAC /* SLAFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFXMLRequestOperation.h; path = SLAFNetworking/SLAFXMLRequestOperation.h; sourceTree = "<group>"; };
+		727F78C85177BE8E164AFD35C9CA715B /* UIImageView+SLAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SLAFNetworking.m"; path = "SLAFNetworking/UIImageView+SLAFNetworking.m"; sourceTree = "<group>"; };
+		7F4E5C659E830AB8A840E4508B48E4A2 /* Pods-loopback-swift-crud-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-loopback-swift-crud-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FDEE2EECBDC1875CD6FF9CD25724BAA /* LBPushNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBPushNotification.m; path = LoopBack/LBPushNotification.m; sourceTree = "<group>"; };
+		81D17DE44B27C12DE8F6C47736F8064A /* SLObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLObject.h; path = SLRemoting/SLObject.h; sourceTree = "<group>"; };
+		86E63A49AFAED15CEE1A05F8985F6065 /* LoopBack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoopBack.framework; path = LoopBack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A328019B007809D1CBD3A4B89862DF9 /* SLAFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFURLConnectionOperation.h; path = SLAFNetworking/SLAFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8EC3A28E1566637D52613FA1990D64BF /* SLStreamParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLStreamParam.m; path = SLRemoting/SLStreamParam.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950488DF44D0C7747BC1F7DB2BC3132A /* LBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBFile.h; path = LoopBack/LBFile.h; sourceTree = "<group>"; };
+		A073D4307E564EEE8BF42D57490CCCF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A0D856C3F08E7071C2029F7142F398B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		A271631FBD3DB85F580DDE767D487520 /* Pods-loopback-swift-crud-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-loopback-swift-crud-example.modulemap"; sourceTree = "<group>"; };
+		A313F602C86479DA15CFEDDBF61663B4 /* SLAFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFXMLRequestOperation.m; path = SLAFNetworking/SLAFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A544D011F511290E95AEB8046EFDB2EB /* Pods-loopback-swift-crud-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loopback-swift-crud-example-frameworks.sh"; sourceTree = "<group>"; };
+		A6D3EA3A20AFFDFA1434CA5D85A396F0 /* SLRemotingTestsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRemotingTestsUtils.h; path = SLRemoting/SLRemotingTestsUtils.h; sourceTree = "<group>"; };
+		A8DC14DE998E0E2E29CDE5D4C501858E /* SLAFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFHTTPRequestOperation.m; path = SLAFNetworking/SLAFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AE24A7ADF4D0E072CE7A791FAEDBB9B4 /* SLAFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFPropertyListRequestOperation.m; path = SLAFNetworking/SLAFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		AED26E2EF98405B5BE7DCAD12A7C27C4 /* Pods-loopback-swift-crud-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-loopback-swift-crud-example-umbrella.h"; sourceTree = "<group>"; };
+		B0F3A3F6665250E0E5CABED7307764D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B032E06C9F543128145F2A6EF1D179 /* SLAFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFURLConnectionOperation.m; path = SLAFNetworking/SLAFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B49EBDE59596C5E7091EA7BC98B3759A /* LBAccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBAccessToken.h; path = LoopBack/LBAccessToken.h; sourceTree = "<group>"; };
+		B86177C617F6B0DBC52DB68EC7B94E42 /* SLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFNetworking.h; path = SLAFNetworking/SLAFNetworking.h; sourceTree = "<group>"; };
+		B9B348CA4CD9F1058EC89180D82041DD /* LoopBack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoopBack-dummy.m"; sourceTree = "<group>"; };
+		BB7AFA08F22618C253A9AB3406605060 /* SLAFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFHTTPClient.m; path = SLAFNetworking/SLAFHTTPClient.m; sourceTree = "<group>"; };
+		BC7EBBB11735876DC55A7C170147A987 /* SLStreamParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLStreamParam.h; path = SLRemoting/SLStreamParam.h; sourceTree = "<group>"; };
+		C096A01F5F36210D7228AF6592FB2428 /* SLAFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFHTTPRequestOperation.h; path = SLAFNetworking/SLAFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C54A53E58D16A1BB6A36B1E87A32E1B6 /* SLAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFNetworkActivityIndicatorManager.h; path = SLAFNetworking/SLAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		C5779FB784C2E3A60D743FD2C016351B /* LBContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBContainer.h; path = LoopBack/LBContainer.h; sourceTree = "<group>"; };
+		C74B4CE9454B118DB1BA4523173D9D6F /* SLAFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFJSONRequestOperation.m; path = SLAFNetworking/SLAFJSONRequestOperation.m; sourceTree = "<group>"; };
+		C82C32B5F246316F6C31FE7D9D1DEFCF /* Pods-loopback-swift-crud-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-loopback-swift-crud-example.release.xcconfig"; sourceTree = "<group>"; };
+		C9A1ACEB1C607E2F353133D7AEBABE03 /* LBPersistedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBPersistedModel.m; path = LoopBack/LBPersistedModel.m; sourceTree = "<group>"; };
+		CD10AE16FE91F65DBEF486826D35AA8D /* Pods-loopback-swift-crud-example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-loopback-swift-crud-example-resources.sh"; sourceTree = "<group>"; };
+		CEE5605B839B576790B89200AAA48BF0 /* SLRemoting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRemoting.h; path = SLRemoting/SLRemoting.h; sourceTree = "<group>"; };
+		D35C12B08124905B6057AD77BAAF52B3 /* LBAccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBAccessToken.m; path = LoopBack/LBAccessToken.m; sourceTree = "<group>"; };
+		E2A88ADDF846ECED8249B19BAF17467D /* Pods-loopback-swift-crud-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-loopback-swift-crud-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7AACA92544AB38FB3E7D7C20DB893E1 /* SLRESTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLRESTAdapter.h; path = SLRemoting/SLRESTAdapter.h; sourceTree = "<group>"; };
+		E86AA67089D46CD8CAE4F03C1B40E2ED /* SLObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLObject.m; path = SLRemoting/SLObject.m; sourceTree = "<group>"; };
+		F5613CA0151FE5D4E3A7F976B96615AE /* SLAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLAFNetworkActivityIndicatorManager.m; path = SLAFNetworking/SLAFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		F7D4B4489CD48173778B0CC85FB20042 /* LoopBack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LoopBack.modulemap; sourceTree = "<group>"; };
+		FA355CDEC57D6D62F77EA5AE58B99BDE /* LBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBUser.m; path = LoopBack/LBUser.m; sourceTree = "<group>"; };
+		FB089AF360C2E17868A3D814AE5CC56B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB9B568133E0AA4306C28149EED437FE /* SLAFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFImageRequestOperation.h; path = SLAFNetworking/SLAFImageRequestOperation.h; sourceTree = "<group>"; };
+		FEC4D2EF6304411FAAED188A4854283E /* SLAFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLAFHTTPClient.h; path = SLAFNetworking/SLAFHTTPClient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		390A521F80B3849B87969469355DF69C /* Frameworks */ = {
+		365B581320708B3AB949520911E9ABB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF90C64C37A0F2902A1746EB553AE16 /* Foundation.framework in Frameworks */,
+				3AD231CFE7F32C7E925E2938E80F2BA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50F19ED285CA6194C54CF1D75D763C2F /* Frameworks */ = {
+		F83822FD1CD307C9A059018CBCA94DEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB84BE5E239D3CBB1E4DD4F59972203 /* Foundation.framework in Frameworks */,
-				7C75EFB9B80CD5C1E6CA7861C808ED28 /* MobileCoreServices.framework in Frameworks */,
-				28F68DB82DBD3CA6AB3E4C9D541469A4 /* SystemConfiguration.framework in Frameworks */,
-				2BAB57CD1651A942ADDDEB8EAD559CC3 /* UIKit.framework in Frameworks */,
+				A5BD7C8E918080BDAF016EE6036D5B23 /* CoreLocation.framework in Frameworks */,
+				9024781CBA5D5F0AC924DB3D3D3C5221 /* Foundation.framework in Frameworks */,
+				95502DB8D31BF3BE81D5AF356F9652E8 /* MobileCoreServices.framework in Frameworks */,
+				56E08844C16D424796AB8F461921B67F /* SystemConfiguration.framework in Frameworks */,
+				DDBA7F5EAFB12D2B35EFA5D55F735DAC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D702386D2EB6781841E3482595D54CD5 /* iOS */,
+				A651F88948D11D9B5BA14F5D2FD7BE8E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45292803AC91C1D94A0CC76B37E6864B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E63A49AFAED15CEE1A05F8985F6065 /* LoopBack.framework */,
+				21DF5AB80D084E992F9754D5EE3E4D5D /* Pods_loopback_swift_crud_example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		485699F62615D89E0394F3799B8454D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1F95D96451D101172B05CEEA471EE58 /* LoopBack */,
+				5A86573699AE2DDF844A95073721A923 /* LoopBack */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5CFA491CCD1CB777ED819F899BDA96C7 /* Support Files */ = {
+		5A86573699AE2DDF844A95073721A923 /* LoopBack */ = {
 			isa = PBXGroup;
 			children = (
-				4716B4057A4BC5787B7FA68C756AE7DE /* LoopBack.xcconfig */,
-				AF61196C346423AA00F8E671980310CE /* LoopBack-dummy.m */,
-				08269C6820AAAB95042542F9F4F5EB29 /* LoopBack-prefix.pch */,
+				B49EBDE59596C5E7091EA7BC98B3759A /* LBAccessToken.h */,
+				D35C12B08124905B6057AD77BAAF52B3 /* LBAccessToken.m */,
+				C5779FB784C2E3A60D743FD2C016351B /* LBContainer.h */,
+				5735B07AF3722B4AC776C903F401BF32 /* LBContainer.m */,
+				950488DF44D0C7747BC1F7DB2BC3132A /* LBFile.h */,
+				2B9CD96656A2E639240C3BBB6907E805 /* LBFile.m */,
+				23332DE1DDDF145A14B565497DC7307D /* LBInstallation.h */,
+				123937E9479384597628D8A57B7FA8C5 /* LBInstallation.m */,
+				46130CE65F03585A79005F9B8463725E /* LBModel.h */,
+				13F283056C9583546FB55284F965CDBB /* LBModel.m */,
+				008FD30797E43A0930475CDE7C6F8FE8 /* LBPersistedModel.h */,
+				C9A1ACEB1C607E2F353133D7AEBABE03 /* LBPersistedModel.m */,
+				490BBF1A55644E38C41EF44A477F3945 /* LBPushNotification.h */,
+				7FDEE2EECBDC1875CD6FF9CD25724BAA /* LBPushNotification.m */,
+				270136B8965D3080090F6BF211B7FD3F /* LBRESTAdapter.h */,
+				5D301BE277CC591123E36153782D9E2C /* LBRESTAdapter.m */,
+				176ABCBF7094ECF7884E9A0CE0893DD5 /* LBUser.h */,
+				FA355CDEC57D6D62F77EA5AE58B99BDE /* LBUser.m */,
+				248148E0367E93977A9C1DCB82071EAF /* LoopBack.h */,
+				02EF4ACB84284B47A11FF4F34ABB746E /* SLAdapter.h */,
+				3E7B25865DCF737AE67CDA77CBE74DE8 /* SLAdapter.m */,
+				FEC4D2EF6304411FAAED188A4854283E /* SLAFHTTPClient.h */,
+				BB7AFA08F22618C253A9AB3406605060 /* SLAFHTTPClient.m */,
+				C096A01F5F36210D7228AF6592FB2428 /* SLAFHTTPRequestOperation.h */,
+				A8DC14DE998E0E2E29CDE5D4C501858E /* SLAFHTTPRequestOperation.m */,
+				FB9B568133E0AA4306C28149EED437FE /* SLAFImageRequestOperation.h */,
+				493A1322B14F7317EC1D1B6476D3E210 /* SLAFImageRequestOperation.m */,
+				2E647E9ABCCFA7820E8CF28ECE6D6200 /* SLAFJSONRequestOperation.h */,
+				C74B4CE9454B118DB1BA4523173D9D6F /* SLAFJSONRequestOperation.m */,
+				C54A53E58D16A1BB6A36B1E87A32E1B6 /* SLAFNetworkActivityIndicatorManager.h */,
+				F5613CA0151FE5D4E3A7F976B96615AE /* SLAFNetworkActivityIndicatorManager.m */,
+				B86177C617F6B0DBC52DB68EC7B94E42 /* SLAFNetworking.h */,
+				5841AC19FDC86CA980DFEC06234BCA4E /* SLAFPropertyListRequestOperation.h */,
+				AE24A7ADF4D0E072CE7A791FAEDBB9B4 /* SLAFPropertyListRequestOperation.m */,
+				8A328019B007809D1CBD3A4B89862DF9 /* SLAFURLConnectionOperation.h */,
+				B3B032E06C9F543128145F2A6EF1D179 /* SLAFURLConnectionOperation.m */,
+				71548D6155EE310C6C48665C8C11BFAC /* SLAFXMLRequestOperation.h */,
+				A313F602C86479DA15CFEDDBF61663B4 /* SLAFXMLRequestOperation.m */,
+				81D17DE44B27C12DE8F6C47736F8064A /* SLObject.h */,
+				E86AA67089D46CD8CAE4F03C1B40E2ED /* SLObject.m */,
+				CEE5605B839B576790B89200AAA48BF0 /* SLRemoting.h */,
+				A6D3EA3A20AFFDFA1434CA5D85A396F0 /* SLRemotingTestsUtils.h */,
+				E7AACA92544AB38FB3E7D7C20DB893E1 /* SLRESTAdapter.h */,
+				6E56ACCD82DA560AE33FD26FCC035ED8 /* SLRESTAdapter.m */,
+				31BA85829B34C587D7987A60F3AA0676 /* SLRESTContract.h */,
+				1E6D6F692C67B1EFB12D085CCBEC59AE /* SLRESTContract.m */,
+				BC7EBBB11735876DC55A7C170147A987 /* SLStreamParam.h */,
+				8EC3A28E1566637D52613FA1990D64BF /* SLStreamParam.m */,
+				3267B8FE6684EDCA6E268405C0C952D9 /* UIImageView+SLAFNetworking.h */,
+				727F78C85177BE8E164AFD35C9CA715B /* UIImageView+SLAFNetworking.m */,
+				D0C2EE07BFE44EBEE40BB0642F63DB60 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LoopBack";
+			name = LoopBack;
+			path = LoopBack;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				485699F62615D89E0394F3799B8454D1 /* Pods */,
-				F29627D6C76367F8246F0D288D3F6CAC /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				45292803AC91C1D94A0CC76B37E6864B /* Products */,
+				E61E9A4910769D1993C60AE75BDA5F1B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+		A651F88948D11D9B5BA14F5D2FD7BE8E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
-				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		D1F95D96451D101172B05CEEA471EE58 /* LoopBack */ = {
-			isa = PBXGroup;
-			children = (
-				DA72C60E89BE2125993ED60192196F08 /* LBAccessToken.h */,
-				1321E6682DAC05580E495AB7329FDA35 /* LBAccessToken.m */,
-				B0A79F516DFB53F7D203D5C63D7E145A /* LBContainer.h */,
-				AEFBFB010E5D3865BE8048A4066E17CF /* LBContainer.m */,
-				7CD80CC664268EE05EF413E2666F4EC3 /* LBFile.h */,
-				97A3715EF5151EB7AC2DB3F9E3D9FAD4 /* LBFile.m */,
-				F0F12DF94300C84F64A60B90D898860D /* LBInstallation.h */,
-				024A6EEC83416CD7AB371BEA459B7856 /* LBInstallation.m */,
-				2223C4384C95029221AB1311E2AA997D /* LBModel.h */,
-				CC98393F2F3BA69564B8CE982BB1AD1A /* LBModel.m */,
-				6511BC4CD5EA22F12F24825E67EF472F /* LBPersistedModel.h */,
-				D6DDD6AAE14124440E99BA71B1ABC044 /* LBPersistedModel.m */,
-				961C901E74871705E3D80777A26A706E /* LBPushNotification.h */,
-				7140C27C8BDA61748908F1DBA32295C9 /* LBPushNotification.m */,
-				0CD9364410DC8FAD1C62A7A9C55CABD5 /* LBRESTAdapter.h */,
-				87601186F65C6E36FFC6CD7E677FB52C /* LBRESTAdapter.m */,
-				B9BFE02F90C98142A118D5C8C22DD8A9 /* LBUser.h */,
-				F7D0CC3A3634F461905147405656CBC6 /* LBUser.m */,
-				38EF674CB29D772AEA6FEB1C28C5E215 /* LoopBack.h */,
-				722D6ACFC43CD06A5A78AA0CE24091AD /* SLAdapter.h */,
-				0CDFF4AA2B5BF6FCBCE89737E6F33888 /* SLAdapter.m */,
-				E6B6606E181434856C19EAD18708340E /* SLAFHTTPClient.h */,
-				785B054FDD220B0EB27588B051419F26 /* SLAFHTTPClient.m */,
-				00FC4C407D2A84B0C93F40726FD03C6B /* SLAFHTTPRequestOperation.h */,
-				870B3872D00A831967AC8BEE7AEAAAB4 /* SLAFHTTPRequestOperation.m */,
-				8B90D5CA146B51A13B2986CE2AC21248 /* SLAFImageRequestOperation.h */,
-				8F955F5197E901E26495630C08E4A47B /* SLAFImageRequestOperation.m */,
-				BF9D5CCA24841322A1013E8A4AA1C1EB /* SLAFJSONRequestOperation.h */,
-				E3EC95A46575A7E2633BBEA4D5FA5916 /* SLAFJSONRequestOperation.m */,
-				6719CF6BA933B48B794F42993408E42A /* SLAFNetworkActivityIndicatorManager.h */,
-				08D882DFACF8D329C2A5BB313D8D7F3D /* SLAFNetworkActivityIndicatorManager.m */,
-				6F74F6833FF5B75FEDBC378CA04D7287 /* SLAFNetworking.h */,
-				C796CC9846F69F0FCED01BAB0369503A /* SLAFPropertyListRequestOperation.h */,
-				5182BD44A623799EF2C11CA4BD99C6F4 /* SLAFPropertyListRequestOperation.m */,
-				2790635046D4B4844991155F36F4D33F /* SLAFURLConnectionOperation.h */,
-				ABD8B336C91841B385432E5B6EF25E73 /* SLAFURLConnectionOperation.m */,
-				E6958E0D83C4CD3F3C78446198AB1B9A /* SLAFXMLRequestOperation.h */,
-				217AB4964C77E95769741C92F80A3AC4 /* SLAFXMLRequestOperation.m */,
-				6699E859838CC15F6C387AF490851A51 /* SLObject.h */,
-				2EB74524A8B4C65D0AA688EAD239FB23 /* SLObject.m */,
-				C20CAC0D7121DEE68A53345556757F00 /* SLRemoting.h */,
-				16EEF506497BD65694C3901D662B1B36 /* SLRemotingTestsUtils.h */,
-				9E63A272EA6A13233E2F86BE5C71D011 /* SLRESTAdapter.h */,
-				BDF215A742E053CB03D852937D13F8DD /* SLRESTAdapter.m */,
-				00B9FDAD0E6A5D2ECD168F1F2A66B2F3 /* SLRESTContract.h */,
-				36A330C4527949138483142E65D0939E /* SLRESTContract.m */,
-				BAD89C195FFB3D9354A7990E2CB7D028 /* SLStreamParam.h */,
-				7F5AA15E3E445E2CFDCA927ADC514BC5 /* SLStreamParam.m */,
-				2447B4C5EF3035ABA2F4E7062F3A7CD8 /* UIImageView+SLAFNetworking.h */,
-				3FD9C34925493ECB422EEAFC23F2D1B4 /* UIImageView+SLAFNetworking.m */,
-				5CFA491CCD1CB777ED819F899BDA96C7 /* Support Files */,
-			);
-			path = LoopBack;
-			sourceTree = "<group>";
-		};
-		D702386D2EB6781841E3482595D54CD5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				34C2E7E21B898FA58280EFE75438A085 /* Foundation.framework */,
-				190A29CFA96483899F6B845D753780D1 /* MobileCoreServices.framework */,
-				B43D65B21A9CE4F602CA231AED8A17A0 /* SystemConfiguration.framework */,
-				CE38CE89C0DC34B8F4ED076D64921E3D /* UIKit.framework */,
+				A0D856C3F08E7071C2029F7142F398B0 /* CoreLocation.framework */,
+				FB089AF360C2E17868A3D814AE5CC56B /* Foundation.framework */,
+				120DDA37F68AA67CD88E45B0907B7F49 /* MobileCoreServices.framework */,
+				A073D4307E564EEE8BF42D57490CCCF5 /* SystemConfiguration.framework */,
+				24E7995D671467D9F41628AE21D9E1C8 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F29627D6C76367F8246F0D288D3F6CAC /* Products */ = {
+		D0C2EE07BFE44EBEE40BB0642F63DB60 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7CC03A7335B5E0C55A8602C336C95F7 /* libLoopBack.a */,
-				2BBF3938AE4A578B225EA6FE2E712473 /* libPods.a */,
+				B0F3A3F6665250E0E5CABED7307764D1 /* Info.plist */,
+				F7D4B4489CD48173778B0CC85FB20042 /* LoopBack.modulemap */,
+				577D8F8BD93D768614B7AD030EDF8CA3 /* LoopBack.xcconfig */,
+				B9B348CA4CD9F1058EC89180D82041DD /* LoopBack-dummy.m */,
+				5610C95A2AE80817013372FCEF059AE1 /* LoopBack-prefix.pch */,
+				24A6D6B3EBB1DA9C96FC5DF84A141817 /* LoopBack-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/LoopBack";
+			sourceTree = "<group>";
+		};
+		E61E9A4910769D1993C60AE75BDA5F1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D8BADA84425CF42E8D0A3E4A8BBB9 /* Pods-loopback-swift-crud-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED2D8BADA84425CF42E8D0A3E4A8BBB9 /* Pods-loopback-swift-crud-example */ = {
+			isa = PBXGroup;
+			children = (
+				176FE430BA534662887939A14B48FD9C /* Info.plist */,
+				A271631FBD3DB85F580DDE767D487520 /* Pods-loopback-swift-crud-example.modulemap */,
+				E2A88ADDF846ECED8249B19BAF17467D /* Pods-loopback-swift-crud-example-acknowledgements.markdown */,
+				7F4E5C659E830AB8A840E4508B48E4A2 /* Pods-loopback-swift-crud-example-acknowledgements.plist */,
+				5D9336F653A14E3812D046EFE45A192B /* Pods-loopback-swift-crud-example-dummy.m */,
+				A544D011F511290E95AEB8046EFDB2EB /* Pods-loopback-swift-crud-example-frameworks.sh */,
+				CD10AE16FE91F65DBEF486826D35AA8D /* Pods-loopback-swift-crud-example-resources.sh */,
+				AED26E2EF98405B5BE7DCAD12A7C27C4 /* Pods-loopback-swift-crud-example-umbrella.h */,
+				4A5E65BF34F2011704F7E9A4CBF8C73E /* Pods-loopback-swift-crud-example.debug.xcconfig */,
+				C82C32B5F246316F6C31FE7D9D1DEFCF /* Pods-loopback-swift-crud-example.release.xcconfig */,
+			);
+			name = "Pods-loopback-swift-crud-example";
+			path = "Target Support Files/Pods-loopback-swift-crud-example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53FC028621448D32A27436A788FC7B25 /* Headers */ = {
+		89BCE8CFDDA92CA00E8154E9391A7D75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D2E152CFCB4DB02A70B13F065D8FB4 /* LBAccessToken.h in Headers */,
-				5339652DB6456A33C39B62897CB984AE /* LBContainer.h in Headers */,
-				0DACF5255765BA5227C84F0C0164612D /* LBFile.h in Headers */,
-				73F93A6D38F77C9A437110E626B257A9 /* LBInstallation.h in Headers */,
-				934ED45B795365A69DD873B9D0E971C6 /* LBModel.h in Headers */,
-				619E640C3CD6A3B13073D7C2B239BCCD /* LBPersistedModel.h in Headers */,
-				EA841E442B665CA05D1867F1DA15D863 /* LBPushNotification.h in Headers */,
-				C8113652E6DC97552DCA05125CC1E81C /* LBRESTAdapter.h in Headers */,
-				D59E6DB67F0B7BF432247542DA846D60 /* LBUser.h in Headers */,
-				CC29AA36E81D1F1542DB0044F827A8A9 /* LoopBack.h in Headers */,
-				84356CDEAF7F211049FD79C2D1E23C6F /* SLAdapter.h in Headers */,
-				51E005A7A48DADB8D92F4AE3CF617724 /* SLAFHTTPClient.h in Headers */,
-				6375B72A77BAC0AE09EC2BC3D83F162C /* SLAFHTTPRequestOperation.h in Headers */,
-				5DB92F191FD4E3AEDA3E63325E0292AF /* SLAFImageRequestOperation.h in Headers */,
-				CB647ADBBB609572D5F438C1F704D328 /* SLAFJSONRequestOperation.h in Headers */,
-				87A9C05B62AE88E21EDA00E3E569CE33 /* SLAFNetworkActivityIndicatorManager.h in Headers */,
-				8FB72883BFC46FF30F0EFA3155AC02BA /* SLAFNetworking.h in Headers */,
-				DF4CA828726E432A856444AB3E4EE106 /* SLAFPropertyListRequestOperation.h in Headers */,
-				CE67F9DB6237837DC8FD093D9DA9D9F4 /* SLAFURLConnectionOperation.h in Headers */,
-				5800E275D76926F1E6CEA746D95656D0 /* SLAFXMLRequestOperation.h in Headers */,
-				29C41304E1D572369CB5DBBE08D22C11 /* SLObject.h in Headers */,
-				7662A6CB71D95C2BAAE191C4D3AD80EE /* SLRemoting.h in Headers */,
-				A9AA99447B36FACF786DA2F0DE288ADC /* SLRemotingTestsUtils.h in Headers */,
-				0BEEB822536C2ED03D3EE3130E753DF4 /* SLRESTAdapter.h in Headers */,
-				43B9B12940A93B9EB8693C0EB9C16381 /* SLRESTContract.h in Headers */,
-				4381F2FA1ABA8285BAD22F9E8DA64D8A /* SLStreamParam.h in Headers */,
-				382403B4309EB04BE9C2160E07B929D5 /* UIImageView+SLAFNetworking.h in Headers */,
+				F1D4308A2B677400A12AFA063246A4A0 /* Pods-loopback-swift-crud-example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EE6F5AE89EA992FCDDFD934FCB7DC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B863E4A18390D904AD4EB0065F8D5 /* LBAccessToken.h in Headers */,
+				C1AEAB4A2E79F830FD718F22ABE0CE17 /* LBContainer.h in Headers */,
+				9909C16B153B5E00F1D3D0890A988548 /* LBFile.h in Headers */,
+				CE7668630A16DBBE5F6EF8D50B9A4DF0 /* LBInstallation.h in Headers */,
+				C409566A08C806EF07EDC18095946DB1 /* LBModel.h in Headers */,
+				E359E730D8ABCC7FA1CEC00FADDEE9E1 /* LBPersistedModel.h in Headers */,
+				3AE642AF9493F7029A9CF42D486B6C4C /* LBPushNotification.h in Headers */,
+				02AEC53604768E3B98FE750A15780D2F /* LBRESTAdapter.h in Headers */,
+				2799802213FFAD28EDDB575C0A530C7E /* LBUser.h in Headers */,
+				12ABF8BB8A301732843DE11AB7300C38 /* LoopBack-umbrella.h in Headers */,
+				81BD53DF0DA14F2DCD4AEBAB38EE76ED /* LoopBack.h in Headers */,
+				355C98009A66C0E2AD7478EB4125F4BC /* SLAdapter.h in Headers */,
+				F6CAEE0A267B700DD03A230CF1A12D86 /* SLAFHTTPClient.h in Headers */,
+				C04AFDF3A4332B56D297E9E584A703A6 /* SLAFHTTPRequestOperation.h in Headers */,
+				84E68A4852BDFD37ABB10B400E4B0F79 /* SLAFImageRequestOperation.h in Headers */,
+				4446E6FF73AFA2EEC2EAFB5DE93F7E5E /* SLAFJSONRequestOperation.h in Headers */,
+				61782BC73008E548148C75694EE33BB9 /* SLAFNetworkActivityIndicatorManager.h in Headers */,
+				5192400C93871F6FA81A12FBD7FA0C62 /* SLAFNetworking.h in Headers */,
+				8CF4A515B3F2A12C6F9B351E3A002461 /* SLAFPropertyListRequestOperation.h in Headers */,
+				92F59CC9E95796D62A2C804645E9B6A7 /* SLAFURLConnectionOperation.h in Headers */,
+				F3BEDDB33D123CBA991BAF86B649D1F9 /* SLAFXMLRequestOperation.h in Headers */,
+				0C30C6E430AE0A5E091CAD83AAD782E8 /* SLObject.h in Headers */,
+				346B2A6803BA2988F2F2FA81A369E95A /* SLRemoting.h in Headers */,
+				8C22CFD290121A0E8DA2CD527036AFC3 /* SLRemotingTestsUtils.h in Headers */,
+				41451949271DC13696A69E701E190242 /* SLRESTAdapter.h in Headers */,
+				39401D2FBCE369213D9AD461D4581351 /* SLRESTContract.h in Headers */,
+				A36EB0E92E5C947B86875F23B3525816 /* SLStreamParam.h in Headers */,
+				91A3A0B80E6FD1CB452FBAD997B0F4D4 /* UIImageView+SLAFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E3894F14E7D5E6C8F3D957E7AB849FCE /* Pods */ = {
+		A16FE1B576802D2EB5995B602095E8D9 /* LoopBack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 043CAFC6F2DC744DAE13DA32508A3784 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 128844A7B6CB1B6581CDA6E450B0A323 /* Build configuration list for PBXNativeTarget "LoopBack" */;
 			buildPhases = (
-				7A98C06E0AFFB0616FF6535D455154A5 /* Sources */,
-				390A521F80B3849B87969469355DF69C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				205569F360C6C24BDBC1C2E2F085EC7E /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 2BBF3938AE4A578B225EA6FE2E712473 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ED63A512E1BA48AE08645153F3F18462 /* LoopBack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3B7C9EC1AE77C1C0DD76EF02E55834D /* Build configuration list for PBXNativeTarget "LoopBack" */;
-			buildPhases = (
-				D7F4D12E0839ABFFDE1D8B58ABC37021 /* Sources */,
-				50F19ED285CA6194C54CF1D75D763C2F /* Frameworks */,
-				53FC028621448D32A27436A788FC7B25 /* Headers */,
+				2C5055BED90E5CCCC37A4CAAF028B156 /* Sources */,
+				F83822FD1CD307C9A059018CBCA94DEA /* Frameworks */,
+				99EE6F5AE89EA992FCDDFD934FCB7DC6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -379,8 +390,26 @@
 			);
 			name = LoopBack;
 			productName = LoopBack;
-			productReference = E7CC03A7335B5E0C55A8602C336C95F7 /* libLoopBack.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 86E63A49AFAED15CEE1A05F8985F6065 /* LoopBack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF67BF59FFD9A4587ED54461E6B169E /* Pods-loopback-swift-crud-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B947CC8733845078D19546DD7C9DB54E /* Build configuration list for PBXNativeTarget "Pods-loopback-swift-crud-example" */;
+			buildPhases = (
+				944D92339CF9AE3E58D719F64FD0425D /* Sources */,
+				365B581320708B3AB949520911E9ABB3 /* Frameworks */,
+				89BCE8CFDDA92CA00E8154E9391A7D75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DD6DDCBE81B1BD990AEC4E0C478E4D /* PBXTargetDependency */,
+			);
+			name = "Pods-loopback-swift-crud-example";
+			productName = "Pods-loopback-swift-crud-example";
+			productReference = 21DF5AB80D084E992F9754D5EE3E4D5D /* Pods_loopback_swift_crud_example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -388,7 +417,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -399,142 +428,172 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F29627D6C76367F8246F0D288D3F6CAC /* Products */;
+			productRefGroup = 45292803AC91C1D94A0CC76B37E6864B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED63A512E1BA48AE08645153F3F18462 /* LoopBack */,
-				E3894F14E7D5E6C8F3D957E7AB849FCE /* Pods */,
+				A16FE1B576802D2EB5995B602095E8D9 /* LoopBack */,
+				EDF67BF59FFD9A4587ED54461E6B169E /* Pods-loopback-swift-crud-example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A98C06E0AFFB0616FF6535D455154A5 /* Sources */ = {
+		2C5055BED90E5CCCC37A4CAAF028B156 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCED9E6E5F5B75FD0C065CD4507B9521 /* Pods-dummy.m in Sources */,
+				9119701EC51441005C7D576113E7F087 /* LBAccessToken.m in Sources */,
+				7999A9B22B1ABE157EBF881295F1A9E2 /* LBContainer.m in Sources */,
+				E591695D78DBD4858F608D6E751B2369 /* LBFile.m in Sources */,
+				64954078CE708B0445707AAFD33E69DC /* LBInstallation.m in Sources */,
+				E8E37400E18C592F55F51808C4C6DA59 /* LBModel.m in Sources */,
+				47E3BB8528D4EB0EDF030BBA525FCA9C /* LBPersistedModel.m in Sources */,
+				0757CE41D1500131888E6C166EB9B6ED /* LBPushNotification.m in Sources */,
+				A64AE9A4E4945BBFDA3F51608B19DD78 /* LBRESTAdapter.m in Sources */,
+				34571C7EBE72E5B7F063D5CD16E15F8B /* LBUser.m in Sources */,
+				8EB0E615BDEF624A1DDD1B53965EBDEE /* LoopBack-dummy.m in Sources */,
+				0F7992AC22A3C2D47C25B2D9A28BADA8 /* SLAdapter.m in Sources */,
+				9EE39FED438CE595E1BBB4C252F8A712 /* SLAFHTTPClient.m in Sources */,
+				41F2E7C187A745074DA0E55A685FF4D0 /* SLAFHTTPRequestOperation.m in Sources */,
+				504BFF84CF26A24FBBC518F63509552B /* SLAFImageRequestOperation.m in Sources */,
+				EE980F5C05BC33D4FD9D400A8A8C5748 /* SLAFJSONRequestOperation.m in Sources */,
+				A6F23B8B082931A30C4B25E23D12F844 /* SLAFNetworkActivityIndicatorManager.m in Sources */,
+				E57FD119E67DECCDF7EF885A097AC0BA /* SLAFPropertyListRequestOperation.m in Sources */,
+				12FED39ED5D945E3875AAC64D0827A1D /* SLAFURLConnectionOperation.m in Sources */,
+				A819BDF40EB10D2FB466155A4FD4BDAD /* SLAFXMLRequestOperation.m in Sources */,
+				831DC53D6F81830F092FC8206BD7326A /* SLObject.m in Sources */,
+				829F2A788AF98A34582DBE9EF535E33D /* SLRESTAdapter.m in Sources */,
+				C40DE3992523AA1AA1D6CACCF562E723 /* SLRESTContract.m in Sources */,
+				A4C7C3A07C1D54918A434B5D0F1E885D /* SLStreamParam.m in Sources */,
+				92EDD9A11691F9EF907E484EFD21246C /* UIImageView+SLAFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F4D12E0839ABFFDE1D8B58ABC37021 /* Sources */ = {
+		944D92339CF9AE3E58D719F64FD0425D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08E9BEF139FFCD1C8ADCCDD0DC6EDE92 /* LBAccessToken.m in Sources */,
-				C808C573CA5FFCAA3970BD12F67844B8 /* LBContainer.m in Sources */,
-				C9BBC5AD0C9D39A25CEC3A936C804A38 /* LBFile.m in Sources */,
-				6B58EEF6DAB49093BDCDC1C96503FB74 /* LBInstallation.m in Sources */,
-				1D04EAE083B716EBF6E15604971A8AAB /* LBModel.m in Sources */,
-				FFF869CCEDA30CCE812D095AA8F2A22A /* LBPersistedModel.m in Sources */,
-				B2AD46F96192B60D4FDB6E532F85A172 /* LBPushNotification.m in Sources */,
-				3F94CF6DAE6C20E46FA95A11749C3AA2 /* LBRESTAdapter.m in Sources */,
-				81863FF74C3AD6C0A4DDE14598251295 /* LBUser.m in Sources */,
-				AAF58ABDF82F9CEC2C76E19AF0B250D8 /* LoopBack-dummy.m in Sources */,
-				CCCF5C3614F1F8E9463DAE918809E39D /* SLAdapter.m in Sources */,
-				2F4C38475DCCCA2512EA415914A1395A /* SLAFHTTPClient.m in Sources */,
-				DC27979299539A62B7B03FD85A405E79 /* SLAFHTTPRequestOperation.m in Sources */,
-				BDBB1453EA43DF03AFF97A3774ECB3FD /* SLAFImageRequestOperation.m in Sources */,
-				747B19E41FF064A334C86DACF554B55F /* SLAFJSONRequestOperation.m in Sources */,
-				E96CD601187D7BE5696A2902E3E7C182 /* SLAFNetworkActivityIndicatorManager.m in Sources */,
-				2DF1D5DACAA7EC31214533B68705E961 /* SLAFPropertyListRequestOperation.m in Sources */,
-				C98878F788125A80A61E95133B207CFE /* SLAFURLConnectionOperation.m in Sources */,
-				7F5222A1258F18B1B526AA8ECD737331 /* SLAFXMLRequestOperation.m in Sources */,
-				E392E30F21EBC482F83C847C29B56E66 /* SLObject.m in Sources */,
-				CBF902B76DC59AA396644C5F59812598 /* SLRESTAdapter.m in Sources */,
-				411EB93DE55D7591DE6AEDE5AE61D487 /* SLRESTContract.m in Sources */,
-				44EE43096AA1A5538F39549729D798F1 /* SLStreamParam.m in Sources */,
-				7EC0CF2CED9D7EDFD1B36B28817B613E /* UIImageView+SLAFNetworking.m in Sources */,
+				763BC844950507E9BE46C30D12D4CCCA /* Pods-loopback-swift-crud-example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		205569F360C6C24BDBC1C2E2F085EC7E /* PBXTargetDependency */ = {
+		C1DD6DDCBE81B1BD990AEC4E0C478E4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LoopBack;
-			target = ED63A512E1BA48AE08645153F3F18462 /* LoopBack */;
-			targetProxy = 341E3843D08A4ED270E16C267BA466D1 /* PBXContainerItemProxy */;
+			target = A16FE1B576802D2EB5995B602095E8D9 /* LoopBack */;
+			targetProxy = 98B2A80D2E6E42F597D37BDCC67ED742 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F276EA54497794C8D52E1FD0338C335 /* Release */ = {
+		94DC6205C34873B6B7C635FD007B222E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4716B4057A4BC5787B7FA68C756AE7DE /* LoopBack.xcconfig */;
+			baseConfigurationReference = 577D8F8BD93D768614B7AD030EDF8CA3 /* LoopBack.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LoopBack/LoopBack-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				INFOPLIST_FILE = "Target Support Files/LoopBack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoopBack/LoopBack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LoopBack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		732041B5424CC39DC51B03F11260B320 /* Release */ = {
+		A0592BC2D2C61968285CC9093757D08E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4A5E65BF34F2011704F7E9A4CBF8C73E /* Pods-loopback-swift-crud-example.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-loopback-swift-crud-example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		823F16AF170D575507D5D6521D074293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-loopback-swift-crud-example/Pods-loopback-swift-crud-example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_loopback_swift_crud_example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A79934AD6269FD70E79D2A60ACCF6B90 /* Debug */ = {
+		A859FAC37FBD5F43260A5CC2822F9673 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4716B4057A4BC5787B7FA68C756AE7DE /* LoopBack.xcconfig */;
+			baseConfigurationReference = 577D8F8BD93D768614B7AD030EDF8CA3 /* LoopBack.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LoopBack/LoopBack-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				INFOPLIST_FILE = "Target Support Files/LoopBack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoopBack/LoopBack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LoopBack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+		AD24A8B772A3AB80F338EF6B452909A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -548,11 +607,89 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB010FC18D9F1DD7C9B1095F847BE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82C32B5F246316F6C31FE7D9D1DEFCF /* Pods-loopback-swift-crud-example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-loopback-swift-crud-example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-loopback-swift-crud-example/Pods-loopback-swift-crud-example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_loopback_swift_crud_example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F15098F4E21DD883A1445CB810C455E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -565,53 +702,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		043CAFC6F2DC744DAE13DA32508A3784 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		128844A7B6CB1B6581CDA6E450B0A323 /* Build configuration list for PBXNativeTarget "LoopBack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823F16AF170D575507D5D6521D074293 /* Debug */,
-				732041B5424CC39DC51B03F11260B320 /* Release */,
+				94DC6205C34873B6B7C635FD007B222E /* Debug */,
+				A859FAC37FBD5F43260A5CC2822F9673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -619,17 +723,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
-				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+				F15098F4E21DD883A1445CB810C455E8 /* Debug */,
+				AD24A8B772A3AB80F338EF6B452909A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3B7C9EC1AE77C1C0DD76EF02E55834D /* Build configuration list for PBXNativeTarget "LoopBack" */ = {
+		B947CC8733845078D19546DD7C9DB54E /* Build configuration list for PBXNativeTarget "Pods-loopback-swift-crud-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A79934AD6269FD70E79D2A60ACCF6B90 /* Debug */,
-				0F276EA54497794C8D52E1FD0338C335 /* Release */,
+				A0592BC2D2C61968285CC9093757D08E /* Debug */,
+				BEB010FC18D9F1DD7C9B1095F847BE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

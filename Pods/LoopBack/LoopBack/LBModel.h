@@ -7,6 +7,7 @@
 
 #import "SLRemoting.h"
 
+
 /**
  * A local representative of a single model instance on the server. The data is
  * immediately accessible locally.
@@ -73,6 +74,13 @@
  * @return A shared SLRESTContract for this model type.
  */
 - (SLRESTContract *)contract;
+
+/**
+ * Creates a new LBModel of this type without setting initial parameters.
+ *
+ * @return  A new LBModel.
+ */
+- (LBModel *)model;
 
 /**
  * Creates a new LBModel of this type with the parameters described.

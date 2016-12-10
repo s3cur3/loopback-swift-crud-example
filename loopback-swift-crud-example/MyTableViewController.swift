@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LoopBack
 
 class MyTableViewController: UITableViewController  {
     
@@ -15,21 +16,23 @@ class MyTableViewController: UITableViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = editButtonItem()
+        navigationItem.leftBarButtonItem = editButtonItem
+		
+		AppDelegate.widgetRepository.all(
+			success: { (fetchedWidgets) -> Void in
+				self.widgets = fetchedWidgets as! [Widget]
+				self.tableView.reloadData()
+		},
+			failure: { (error: Error?) -> Void in
+				print(error!)
+		});
+    }
+	
+    override func viewWillAppear(_ animated: Bool) {
         
-        AppDelegate.widgetRepository.allWithSuccess({ (fetchedWidgets: [AnyObject]!) -> Void in
-            self.widgets = fetchedWidgets as! [Widget]
-            self.tableView.reloadData()
-            }) { (error: NSError!) -> Void in
-                NSLog(error.description)
-        }
     }
     
-    override func viewWillAppear(animated: Bool) {
-        
-    }
-    
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         
     }
     
@@ -40,46 +43,52 @@ class MyTableViewController: UITableViewController  {
     
     // MARK: - Table view data source
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
             // Delete the row from the data source
-            widgets[indexPath.row].destroyWithSuccess({ () -> Void in
-                self.widgets.removeAtIndex(indexPath.row)
-                self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-                }, failure: { (error: NSError!) -> Void in
-                    NSLog(error.description)
+            widgets[indexPath.row].destroy(success: { () -> Void in
+                self.widgets.remove(at: indexPath.row)
+                self.tableView.deleteRows(at: [indexPath], with: .fade)
+                }, failure: { (error: Error?) -> Void in
+					print("Error writing to URL: \(error!)")
             })
-        } else if editingStyle == .Insert {
+        } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }
     }
     
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return widgets.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) as! WidgetTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! WidgetTableViewCell
         cell.nameLabel.text = widgets[indexPath.row].name
-        cell.valueLabel.text = String(widgets[indexPath.row].bars)
+		if let bars = widgets[indexPath.row].bars {
+			cell.valueLabel.text = String(describing: bars)
+		}
+		else {
+			cell.valueLabel.text = "None"
+		}
+		
         return cell
     }
     
     // MARK: - Edit and Add Widget Segue operations
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDetail" {
-            let widgetDetailViewController = segue.destinationViewController as! WidgetViewController
+            let widgetDetailViewController = segue.destination as! WidgetViewController
             if let selectedWidgetCell = sender as? WidgetTableViewCell {
-                let indexPath = tableView.indexPathForCell(selectedWidgetCell)!
+                let indexPath = tableView.indexPath(for: selectedWidgetCell)!
                 let selectedWidget = widgets[indexPath.row]
                 widgetDetailViewController.widget = selectedWidget
             }
@@ -90,16 +99,16 @@ class MyTableViewController: UITableViewController  {
         
     }
     
-    @IBAction func unwindToWidgetList(sender: UIStoryboardSegue) {
-        if let sourceViewController = sender.sourceViewController as? WidgetViewController, widget = sourceViewController.widget {
+    @IBAction func unwindToWidgetList(_ sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? WidgetViewController, let widget = sourceViewController.widget {
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 widgets[selectedIndexPath.row] = widget
-                tableView.reloadRowsAtIndexPaths([selectedIndexPath], withRowAnimation: .None)
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
             }
             else    {
-                let newIndexPath = NSIndexPath(forRow: widgets.count, inSection: 0)
+                let newIndexPath = IndexPath(row: widgets.count, section: 0)
                 self.widgets.append(widget)
-                self.tableView.insertRowsAtIndexPaths([newIndexPath], withRowAnimation: .Bottom)
+                self.tableView.insertRows(at: [newIndexPath], with: .bottom)
             }
         }
     }

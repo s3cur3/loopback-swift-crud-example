@@ -13,44 +13,46 @@ class WidgetViewController: UIViewController   {
     @IBOutlet weak var numberValueSlider: UISlider!
     @IBOutlet weak var saveButton: UIBarButtonItem!
     
-    @IBAction func cancelButton(sender: UIBarButtonItem) {
-        self.dismissViewControllerAnimated(true, completion: nil)
-        navigationController!.popViewControllerAnimated(true)
+    @IBAction func cancelButton(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+        navigationController!.popViewController(animated: true)
     }
     
     var widget: Widget?
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if saveButton === sender {
-            if let _ = widget {
-                widget!.name = nameTextField.text ?? ""
-                widget!.bars = Int(numberValueSlider.value)
-                widget?.saveWithSuccess({ () -> Void in
-                    NSLog("Successfully updated Widget")
-                    }, failure: { (error: NSError!) -> Void in
-                        NSLog(error.description)
-                })
-            }
-            else    {
-                if let name = nameTextField.text where name != "" {
-                    widget = AppDelegate.widgetRepository.modelWithDictionary(nil) as? Widget
-                    widget!.name = name
-                    widget!.bars = Int(self.numberValueSlider.value)
-                    widget?.saveWithSuccess({ () -> Void in
-                        NSLog("Successfully created new Widget")
-                        }, failure: { (error: NSError!) -> Void in
-                            NSLog(error.description)
-                    })
-                }
-            }
-        }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if let button = sender as? UIBarButtonItem {
+			if saveButton === button {
+				if let _ = widget {
+					widget!.name = nameTextField.text ?? ""
+					widget!.bars = Int(numberValueSlider.value) as NSNumber
+					widget?.save(success: { () -> Void in
+						print("Successfully updated Widget: Name \(self.widget!.name), bars \(self.widget!.bars)")
+					}, failure: { (error: Error?) -> Void in
+						print(error!)
+					})
+				}
+				else    {
+					if let name = nameTextField.text, name != "" {
+						widget = AppDelegate.widgetRepository.model(with: nil) as? Widget
+						widget!.name = name
+						widget!.bars = Int(numberValueSlider.value) as NSNumber
+						widget?.save(success: { () -> Void in
+							print("Successfully created new Widget: Name \(self.widget!.name), bars \(self.widget!.bars)")
+						}, failure: { (error: Error?) -> Void in
+							print(error!)
+						})
+					}
+				}
+			}
+		}
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         if let widget = widget  {
             nameTextField.text = widget.name
-            numberValueSlider.value = widget.bars as Float
+            numberValueSlider.value = Float(widget.bars)
         }
     }
     

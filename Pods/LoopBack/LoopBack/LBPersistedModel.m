@@ -7,10 +7,6 @@
 
 #import "LBPersistedModel.h"
 
-#import <objc/runtime.h>
-
-#define NSSelectorForSetter(key) NSSelectorFromString([NSString stringWithFormat:@"set%@:", [key stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[key substringToIndex:1] capitalizedString]]])
-
 
 @interface LBPersistedModel() {
     id __id;
@@ -39,7 +35,7 @@
 - (void)saveWithSuccess:(LBPersistedModelSaveSuccessBlock)success
                 failure:(SLFailureBlock)failure {
     [self invokeMethod:self._id ? @"save" : @"create"
-            parameters:nil
+            parameters:self._id ? @{ @"id": self._id } : nil
         bodyParameters:[self toDictionary]
                success:^(id value) {
                    [self setId:[value valueForKey:@"id"]];
